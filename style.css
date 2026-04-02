@@ -10,9 +10,16 @@ html {
   background-size: contain;
   background-color: #7EC8E3;
 }
+
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #1B2A4A;
+}
+
+.subtitle {
+  color: #2C4A6E;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 .btn {
@@ -42,4 +49,24 @@ hr {
     border: 3px solid #1B2A4A;
     max-width: 65px;
     opacity: 1;  
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
+  body, html {
+    background-size: 80%;
+    background-position: center center;
+  }
+  
+  .btn-xl {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
 }
